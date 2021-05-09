@@ -34,7 +34,7 @@ public class Dashboard extends AppCompatActivity {
                 my.setType("text/plain");
                 String c=share.getText().toString();
                 my.putExtra(Intent.EXTRA_TEXT,c);
-                startActivity(Intent.createChooser(my,"Share Using ..."));
+                startActivity(Intent.createChooser(my,"Share Using .."));
             }
         });
         try {
